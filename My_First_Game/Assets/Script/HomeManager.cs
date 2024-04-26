@@ -17,9 +17,9 @@ public class HomeManager : MonoBehaviour
         
     }
 
-    public void OnLayoutSelection(int index)
+    public void PlayGame()
     {
-        PlayerPrefs.SetInt("layout", index);
+
         SceneManager.LoadScene("Game");
     }
 }

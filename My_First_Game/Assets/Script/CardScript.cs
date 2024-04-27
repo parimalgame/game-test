@@ -12,7 +12,7 @@ public class CardScript : MonoBehaviour
     private bool coroutineAllowed, facedUp;
 
     Image Card;
-    // Cards start in the unflipped state
+
     void Start()
     {
         Card = GetComponent<Image>();
@@ -24,10 +24,6 @@ public class CardScript : MonoBehaviour
         facedUp = false;
     }
 
-    // When a card is clicked
-    // If the card is already flipped or if two cards are already being compared, do nothing
-    // Otherwise, flip the card and add it to the comparison list
-    // Then, start comparing cards
     public void OnFlipCard()
     {
         if (cardState.Equals(CardState.Flipped))

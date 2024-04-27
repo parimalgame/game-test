@@ -374,6 +374,7 @@
 "Assets/Script/CardScript.cs"
 "Assets/Script/GameManager.cs"
 "Assets/Script/HomeManager.cs"
+"Assets/Script/SoundManager.cs"
 -langversion:9.0
 
 /deterministic
